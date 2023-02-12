@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 
 }
 
@@ -16,12 +17,36 @@
     width: 400px;
     height: 400px;
     border: 2px solid black;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
     
     
 }
 
 .Surname{
     margin-top: 15px;
-    padding: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(189, 189, 189);
+}
+
+.name{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(189, 189, 189);
+}
+
+
+.aaa{
+    width: 100px;
+    height: 25px;
+    background-color: aqua;
+    border-radius: 7px;
+
 }
 
